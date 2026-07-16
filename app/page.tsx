@@ -105,29 +105,30 @@ export default function LandingPage() {
         <div className="absolute bottom-[-15%] left-[-8%] w-[500px] h-[500px] rounded-full opacity-15 pointer-events-none" style={{ background: "radial-gradient(circle, #F7A8C8, transparent 70%)" }} />
         <div className="absolute top-[20%] left-[40%] w-[300px] h-[300px] rounded-full opacity-10 pointer-events-none" style={{ background: "radial-gradient(circle, #fff, transparent 70%)" }} />
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-8 lg:px-16 py-24 lg:py-32">
-          <div className="grid lg:grid-cols-[1fr_auto] gap-12 xl:gap-20 items-center">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-16 pt-16 pb-24 md:py-24 lg:py-32">
+          <div className="grid lg:grid-cols-[1fr_auto] gap-8 md:gap-12 xl:gap-20 items-center">
 
             {/* ── Left: copy ── */}
-            <div className="flex flex-col gap-8 max-w-2xl">
+            <div className="flex flex-col gap-6 md:gap-8 max-w-2xl">
 
               {/* Badge */}
-              <div className="inline-flex w-fit items-center gap-2.5 px-5 py-2.5 rounded-full border border-white/25 text-white/80 text-sm font-medium" style={{ background: "rgba(255,255,255,0.08)", backdropFilter: "blur(12px)" }}>
+              <div className="inline-flex w-fit items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-full border border-white/25 text-white/80 text-xs md:text-sm font-medium" style={{ background: "rgba(255,255,255,0.08)", backdropFilter: "blur(12px)" }}>
                 <span className="w-2 h-2 rounded-full bg-[#F04F9B] animate-pulse flex-shrink-0" />
                 GUIA PRÁTICO COM MAIS DE 50 ESTRATÉGIAS APLICÁVEIS
               </div>
 
               {/* Headline */}
-              <h1 className="text-5xl xl:text-7xl font-black text-white leading-[1.05] tracking-tight" style={{ fontFamily: "'Outfit', sans-serif" }}>
+              <h1 className="text-[2.25rem] md:text-5xl xl:text-6xl font-black text-white leading-[1.1] md:leading-[1.05] tracking-tight" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Sua clínica está
-                <span className="relative inline-block">
-                  <span className="relative z-10" style={{ color: "#F7A8C8" }}>deixando dinheiro</span>
+                <span className="relative inline-block ml-2 md:ml-3">
+                  <span className="relative z-10" style={{ color: "#F7A8C8", wordBreak: "break-word" }}>deixando dinheiro</span>
                 </span>{" "}
+                <br className="hidden md:block" />
                 na mesa todos os meses.
               </h1>
 
               {/* Sub */}
-              <p className="text-white/75 text-xl leading-relaxed max-w-lg">
+              <p className="text-white/75 text-base md:text-xl leading-relaxed max-w-lg">
                 Descubra como colocar mais R$30.000 por mês dentro da sua clínica usando estratégias que você pode aplicar ainda esta semana.
               </p>
 
