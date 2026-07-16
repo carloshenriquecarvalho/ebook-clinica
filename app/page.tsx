@@ -114,42 +114,22 @@ export default function LandingPage() {
               {/* Badge */}
               <div className="inline-flex w-fit items-center gap-2.5 px-5 py-2.5 rounded-full border border-white/25 text-white/80 text-sm font-medium" style={{ background: "rgba(255,255,255,0.08)", backdropFilter: "blur(12px)" }}>
                 <span className="w-2 h-2 rounded-full bg-[#F04F9B] animate-pulse flex-shrink-0" />
-                E-book para clínicas de estética
+                GUIA PRÁTICO COM MAIS DE 50 ESTRATÉGIAS APLICÁVEIS
               </div>
 
               {/* Headline */}
               <h1 className="text-5xl xl:text-7xl font-black text-white leading-[1.05] tracking-tight" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Sua clínica pode<br />
-                faturar o{" "}
+                Sua clínica está
                 <span className="relative inline-block">
-                  <span className="relative z-10" style={{ color: "#F7A8C8" }}>DOBRO</span>
-                </span>
-                <br />
-                ainda este ano
+                  <span className="relative z-10" style={{ color: "#F7A8C8" }}>deixando dinheiro</span>
+                </span>{" "}
+                na mesa todos os meses.
               </h1>
 
               {/* Sub */}
               <p className="text-white/75 text-xl leading-relaxed max-w-lg">
-                Sem gastar mais com anúncios. Sem contratar mais gente. Sem precisar de mais uma cliente nova sequer.
+                Descubra como colocar mais R$30.000 por mês dentro da sua clínica usando estratégias que você pode aplicar ainda esta semana.
               </p>
-
-              {/* Proof strip */}
-              <div className="flex items-center gap-6 py-5 px-6 rounded-2xl border border-white/15" style={{ background: "rgba(255,255,255,0.06)", backdropFilter: "blur(8px)" }}>
-                <div className="flex flex-col gap-0.5">
-                  <span className="text-[#F7A8C8] font-black text-2xl" style={{ fontFamily: "'Outfit', sans-serif" }}>R$ 99,90</span>
-                  <span className="text-white/40 text-xs line-through">Era R$ 297</span>
-                </div>
-                <div className="w-px h-10 bg-white/20" />
-                <div className="flex flex-col gap-0.5">
-                  <span className="text-white font-semibold text-sm">Acesso imediato</span>
-                  <span className="text-white/50 text-xs">PDF completo no seu e-mail</span>
-                </div>
-                <div className="w-px h-10 bg-white/20" />
-                <div className="flex flex-col gap-0.5">
-                  <span className="text-white font-semibold text-sm">7 dias de garantia</span>
-                  <span className="text-white/50 text-xs">Incondicional</span>
-                </div>
-              </div>
 
               {/* CTA */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -161,7 +141,7 @@ export default function LandingPage() {
                   className="group inline-flex items-center gap-3 px-8 py-4 rounded-full font-bold text-base uppercase tracking-wider transition-all duration-200 hover:scale-105 active:scale-100"
                   style={{ background: "linear-gradient(135deg, #F04F9B, #D63384)", color: "#fff", boxShadow: "0 8px 32px rgba(240,79,155,0.45)" }}
                 >
-                  Quero Dobrar Meu Faturamento
+                  QUERO ACESSAR O MÉTODO
                   <svg className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </a>
                 <span className="flex items-center gap-2 text-white/55 text-sm">
@@ -534,7 +514,7 @@ export default function LandingPage() {
             className="group inline-flex items-center gap-3 px-10 py-5 rounded-full font-bold text-lg uppercase tracking-wider transition-all duration-200 hover:scale-105 active:scale-100"
             style={{ background: "linear-gradient(135deg, #F04F9B, #D63384)", color: "#fff", boxShadow: "0 12px 40px rgba(240,79,155,0.5)" }}
           >
-            Quero Dobrar Meu Faturamento Agora
+            QUERO ACESSAR O MÉTODO AGORA
             <svg className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>
           <p className="text-white/40 text-sm tracking-wide">
